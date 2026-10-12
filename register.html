@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inkwell Register</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;500;600;800&family=Newsreader:opsz,wght@6..72,400;500&display=swap">
+<style>
+body{margin:0;background:#FFFFFF;font-family:'Bricolage Grotesque',system-ui,sans-serif;color:#14172A}
+a{color:inherit;text-decoration:none}
+a.lnk:hover{color:#3B3FD8}
+</style>
+</head>
+<body>
+<div style="width:100%;max-width:1280px;margin:0 auto;box-sizing:border-box;min-height:860px;display:flex;flex-wrap:wrap;background:#FFFFFF;color:#14172A;font-family:'Bricolage Grotesque',system-ui,sans-serif">
+
+<section style="flex:1 1 480px;min-width:0;position:relative;overflow:hidden;background:#FFD66B;color:#14172A;padding:48px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;gap:48px;min-height:360px">
+<svg viewBox="0 0 640 860" preserveAspectRatio="xMidYMax slice" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%"><circle cx="150" cy="680" r="140" fill="#3B3FD8"></circle><rect x="330" y="560" width="220" height="300" rx="20" fill="#14172A"></rect><circle cx="440" cy="560" r="64" fill="#FFFFFF"></circle></svg>
+<a href="index.html" style="position:relative;display:flex;align-items:center;gap:10px;font-weight:800;font-size:26px;letter-spacing:-0.02em">
+<svg width="30" height="30" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="8" fill="#3B3FD8"></rect><path d="M9 20c4-1 7-5 10-11-1 6-3 9-6 11-1 .7-3 .7-4 0z" fill="#FFD66B"></path></svg>
+Inkwell
+</a>
+<div style="position:relative;display:flex;flex-direction:column;gap:14px;max-width:440px">
+<h2 style="margin:0;font-size:44px;line-height:1.05;letter-spacing:-0.03em;font-weight:800">Start writing in minutes.</h2>
+<p style="margin:0;font-family:'Newsreader',Georgia,serif;font-size:20px;line-height:1.5;color:#2A2E45">Create a free account to publish stories, follow writers and save what you want to read later.</p>
+</div>
+</section>
+
+<section style="flex:1 1 480px;min-width:0;padding:48px;box-sizing:border-box;display:flex;align-items:center;justify-content:center">
+<div style="width:100%;max-width:420px;display:flex;flex-direction:column;gap:28px">
+<div style="display:flex;flex-direction:column;gap:8px">
+<h1 style="margin:0;font-size:36px;line-height:1.1;letter-spacing:-0.03em;font-weight:800">Create your account</h1>
+<p style="margin:0;font-size:16px;color:#5A6075">It takes less than a minute.</p>
+</div>
+
+<form action="dashboard.html" style="display:flex;flex-direction:column;gap:18px">
+<div style="display:flex;flex-direction:column;gap:8px">
+<label for="reg-name" style="font-size:14px;font-weight:600">Full name</label>
+<input id="reg-name" type="text" autocomplete="name" placeholder="Your name" style="height:48px;box-sizing:border-box;border-radius:12px;border:1.5px solid #D0D3E0;padding:0 16px;font:inherit;font-size:16px;color:#14172A;background:#FFFFFF">
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<label for="reg-email" style="font-size:14px;font-weight:600">Email address</label>
+<input id="reg-email" type="email" autocomplete="email" placeholder="you@example.com" style="height:48px;box-sizing:border-box;border-radius:12px;border:1.5px solid #D0D3E0;padding:0 16px;font:inherit;font-size:16px;color:#14172A;background:#FFFFFF">
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<label for="reg-password" style="font-size:14px;font-weight:600">Password</label>
+<input id="reg-password" type="password" autocomplete="new-password" placeholder="At least 8 characters" style="height:48px;box-sizing:border-box;border-radius:12px;border:1.5px solid #D0D3E0;padding:0 16px;font:inherit;font-size:16px;color:#14172A;background:#FFFFFF">
+<span style="font-size:13px;color:#5A6075">Use 8 or more characters with a mix of letters and numbers.</span>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<label for="reg-confirm" style="font-size:14px;font-weight:600">Confirm password</label>
+<input id="reg-confirm" type="password" autocomplete="new-password" placeholder="Repeat your password" style="height:48px;box-sizing:border-box;border-radius:12px;border:1.5px solid #D0D3E0;padding:0 16px;font:inherit;font-size:16px;color:#14172A;background:#FFFFFF">
+</div>
+<div style="display:flex;align-items:flex-start;gap:10px">
+<input id="reg-terms" type="checkbox" style="width:20px;height:20px;margin:1px 0 0;accent-color:#3B3FD8;flex:0 0 auto">
+<label for="reg-terms" style="font-size:14px;line-height:1.5;color:#4A5066">I agree to the <a class="lnk" href="register.html" style="color:#3B3FD8;font-weight:600">Terms</a> and <a class="lnk" href="register.html" style="color:#3B3FD8;font-weight:600">Privacy Policy</a>.</label>
+</div>
+<button type="submit" style="height:50px;border-radius:12px;border:0;background:#3B3FD8;color:#FFFFFF;font:inherit;font-weight:700;font-size:16px;cursor:pointer">Create account</button>
+</form>
+
+<p style="margin:0;font-size:15px;color:#4A5066;text-align:center">Already have an account? <a class="lnk" href="login.html" style="color:#3B3FD8;font-weight:700">Log in</a></p>
+</div>
+</section>
+
+</div>
+</body>
+</html>
